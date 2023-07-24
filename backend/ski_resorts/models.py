@@ -16,5 +16,6 @@ class SkiResort (models.Model):
     chairlifts = models.DecimalField(max_digits=3)
     tram = models.DecimalField(max_digits=1)
     trails = models.DecimalField(max_digits=4)
-    
+    country = models.CharField(max_length=255)
+    conitnent = models.CharField(max_length=255)
 
